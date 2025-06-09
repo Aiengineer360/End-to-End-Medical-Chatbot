@@ -2,7 +2,9 @@
 
 ## 🌟 Introduction
 MediBot is an AI-powered medical assistant that helps users get preliminary diagnoses and treatment suggestions for various health conditions. Built with cutting-edge technologies like GPT and Pinecone, it provides intelligent, context-aware medical guidance.
-           ![image](https://github.com/user-attachments/assets/862aaf5f-6dcb-40cf-925a-4fcab63ad373)
+
+           ![image](https://github.com/user-attachments/assets/3f77dd7e-e0fc-44bf-b99b-b67c78b58fbf)
+
 
 **Key Features**:
 - 🩺 Symptom-based disease diagnosis
