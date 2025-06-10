@@ -3,7 +3,8 @@
 ## 🌟 Introduction
 MediBot is an AI-powered medical assistant that helps users get preliminary diagnoses and treatment suggestions for various health conditions. Built with cutting-edge technologies like GPT and Pinecone, it provides intelligent, context-aware medical guidance.
 
-![image](https://github.com/user-attachments/assets/c2bd510b-3008-4091-aae4-b7146721c0d3)
+![image](https://github.com/user-attachments/assets/a411fd46-297a-4d2d-a050-f60f0431d707)
+
 
 **Key Features**:
 - 🩺 Symptom-based disease diagnosis
@@ -100,10 +101,19 @@ MediBot is an AI-powered medical assistant that helps users get preliminary diag
    - Create IAM user with policies:
      - AmazonEC2ContainerRegistryFullAccess
      - AmazonEC2FullAccess
+   
+   ![WhatsApp Image 2025-06-09 at 2 50 42 AM](https://github.com/user-attachments/assets/eed7a550-e89e-4bac-823a-09a60ddac7fe)
+
    - Create ECR repository
+
+![WhatsApp Image 2025-06-09 at 2 50 42 AM](https://github.com/user-attachments/assets/09849e47-59e0-4b9e-83d5-e68e88776edb)
+
    - Launch EC2 instance
 
-2. **Configure EC2 instance**
+![WhatsApp Image 2025-06-09 at 2 50 42 AM](https://github.com/user-attachments/assets/53564269-b085-46c1-ab56-86aa73428ccd)
+
+
+1. **Configure EC2 instance**
    ```bash
    sudo apt-get update -y
    sudo apt-get upgrade -y
@@ -113,7 +123,7 @@ MediBot is an AI-powered medical assistant that helps users get preliminary diag
    newgrp docker
    ```
 
-3. **Set up GitHub Actions**
+2. **Set up GitHub Actions**
    - Add secrets:
      - `AWS_ACCESS_KEY_ID`
      - `AWS_SECRET_ACCESS_KEY`
@@ -121,7 +131,7 @@ MediBot is an AI-powered medical assistant that helps users get preliminary diag
      - `OPENAI_API_KEY`
      - `PINECONE_API_KEY`
 
-4. **Configure self-hosted runner**
+3. **Configure self-hosted runner**
    - Set up EC2 as GitHub Actions runner
 
 ## 🤖 How MediBot Works
